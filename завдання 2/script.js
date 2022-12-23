@@ -1,4 +1,3 @@
-console.log(document.querySelectorAll('input[type = checkbox]'));
 document.querySelector('.add').addEventListener('click', () => {
     let inpt = document.querySelector('input[type = text]');
     if (inpt.value != '') {
